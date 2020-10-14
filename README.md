@@ -1,1 +1,2 @@
-# Deep-Learning-practice
+
+Following codes from 'Deep Learning from Scratch' by Seth Weidman
