@@ -7,7 +7,7 @@ Array_Function = Callable[[np.ndarray], np.ndarray]
 # Chain은 함수의 리스트다.
 Chain = List[Array_Function]
 
-def matrix_function_backward_sum_1(X: np.ndarray, W: np.ndarray, sigma:Array_Funcion) -> np.ndarray:
+def matrix_function_backward_sum_1(X: np.ndarray, W: np.ndarray, sigma:Array_Function) -> np.ndarray:
     '''
     행렬곱과 요소의 합 연산이 포함된 함수의 
     첫 번째 인자 행렬에 대한 도함수를 계산하는 과정 구현
